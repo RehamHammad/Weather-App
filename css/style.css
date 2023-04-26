@@ -29,7 +29,7 @@ section{
     background-image: url('../images/banner-img.6da33f89.png');
     background-position: center;
     background-size: cover;
-    height: 100vh;
+   min-height: 100vh;
 }
 
 /********* Start Global *********/
@@ -57,7 +57,7 @@ section{
 
 .display-temp .temp-card {
     width: 50%;
-    height: 300px;
+    /* height: 300px; */
     border-radius: 10px;
 }
 .display-temp .temp-card:first-of-type{
